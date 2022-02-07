@@ -1,0 +1,26 @@
+{
+  "name": "template-export",
+  "version": "0.1.0",
+  "description": "A tool to export all OI Wiki documents.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "escape-latex": "^1.2.0",
+    "js-yaml": "^3.14.0",
+    "rehype-stringify": "^8.0.0",
+    "remark-details": "^1.1.0",
+    "remark-footnotes": "^1.0.0",
+    "remark-latex": "file:../remark-latex",
+    "remark-math": "^1.0.5",
+    "remark-parse": "^6.0.2",
+    "remark-rehype": "^7.0.0",
+    "tiny-glob": "^0.2.9",
+    "to-vfile": "^6.1.0",
+    "unified": "^9.0.0",
+    "unified-stream": "^1.0.6"
+  }
+}
